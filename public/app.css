@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login{
+    overflow: hidden;
+}
+
+.left-side{
+    background-image: url(/imgs/login.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.left-side-card{
+    background: transparent !important;
+    border: none !important;
+    backdrop-filter: blur(15px) saturate(100%);
+}
+
+.main{
+    height: 100vh;
+}
+
+.forget-link{
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-side{
+        display: none;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212529;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 2rem !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0d6efd;
+  }
+
