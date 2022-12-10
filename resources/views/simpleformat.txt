@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Spreadify | Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+        <!-- jsvectormap css -->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css" />
+    
+        <!--Swiper slider css-->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet" type="text/css" />
+    
+        <!-- Layout config Js -->
+        <script src="{{url('https://themesbrand.com/velzon/html/saas/assets/js/layout.js')}}"></script>
+        <!-- Bootstrap Css -->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="{{url('https://themesbrand.com/velzon/html/saas/assets/css/custom.min.css')}}" rel="stylesheet" type="text/css" />
+    
+    <style>
+        .topbar-user{
+            background-color: #1e78ff !important;
+        }
+    
+        #page-topbar,.border-primary,.bg-primary{
+            border-color: #0d6efd !important;
+            background-color: #0d6efd !important;
+        }
+        a::after { 
+      content: none !important;
+    }
+    </style>
+    </head>
+<body>
+
+    <div id="layout-wrapper">
+        @component('components.header')
+        @endcomponent
+        @component('components.appmenu')
+        @endcomponent
+        <div class="vertical-overlay"></div>
+
+        <div class="main-content">
+            <div class="page-content">
+
+            </div>
+
+            @component('components.footer')
+            @endcomponent
+        </div>
+    </div>
+     @component('components.themesettings')
+    @endcomponent
+
+    @component('components.scripts')
+    @endcomponent
+</body>
+</html>

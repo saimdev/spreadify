@@ -22,3 +22,5 @@ Route::get('/signup', function () {
 });
 
 Route::view('dashboard', 'dashboard');
+
+Route::view('integrations', 'integrations');
